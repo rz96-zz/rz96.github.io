@@ -117,7 +117,7 @@ h1, h2, h3 {
 }
 
 .navbar {
-	
+
 }
 
 .nav-item {
@@ -204,4 +204,32 @@ h1, h2, h3 {
 .hovereffect:hover img {
   opacity: 0;
   filter: alpha(opacity=0);
+}
+
+.intro {
+  float: left;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  display: block;
+}
+.intro .c-50 {
+  height: 500px;
+  float: left;
+}
+
+.intro-img {
+  margin-left: 150px;
+  margin-right: 100px;
+  width: 400px;
+  background-size: cover;
+  border-radius: 80%;
+  background-image: url(../images/ProfilePic.jpg);
+
+}
+
+.intro .intro-text {
+  width: 500px;
+  display: table-cell;
+  text-align: left;
 }
