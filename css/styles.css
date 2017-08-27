@@ -240,3 +240,38 @@ h1, h2, h3 {
   display: table-cell;
   text-align: left;
 }
+
+.fh5co-social {
+  padding: 0;
+  margin: 3em 0 0 0;
+  float: right;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-social {
+    float: none;
+  }
+}
+.fh5co-social li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.fh5co-social a {
+  font-size: 18px;
+  border-bottom: none !important;
+  margin: 0 10px;
+}
+.fh5co-social a i {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #2e2e2e;
+}
+.fh5co-social a:hover, .fh5co-social a:active, .fh5co-social a:focus {
+  border-bottom: none !important;
+}
+.fh5co-social a:hover i, .fh5co-social a:active i, .fh5co-social a:focus i {
+  color: #4ce8fb;
+}
