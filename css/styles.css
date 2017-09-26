@@ -238,7 +238,7 @@ h1, h2, h3 {
 }
 
 .intro .intro-text {
-  width: 500px;
+  width: 50%;
   display: table-cell;
   text-align: left;
 }
