@@ -210,12 +210,19 @@ h1, h2, h3 {
   backface-visibility: hidden;
 }
 
-.hovereffect:hover img {
+/*.hovereffect:hover img {
   opacity: 0.9;
   filter: alpha(opacity=0.9);
   background: rgb(0,0,0);
   background: rgba(0,0,0, 1);
 
+}*/
+
+.hovereffect:hover .overlay{
+  opacity: 0.9;
+  filter: alpha(opacity=0.9);
+  background: rgb(0,0,0);
+  background: rgba(0,0,0, 0.5);
 }
 
 .intro {
