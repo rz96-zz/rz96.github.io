@@ -104,15 +104,15 @@ h1, h2, h3 {
 @media (min-width: 576px) {
 	.layout-margin {
 	margin-bottom: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 2rem;
 	}
 }
 
 .navbar-brand {
 	font-weight: 800;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	letter-spacing: 0.5px;
 }
 
@@ -168,15 +168,15 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 1.3rem;
+	font-size: 2rem;
 	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
+	font-weight: 600;
   font: bold;
 	color: white;
 	left: 50%;
 	position: absolute;
 	top: 50%;
-	width: 50%;
+	width: 80%;
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
@@ -194,8 +194,8 @@ h1, h2, h3 {
   font: bold;
   color: white;
   letter-spacing: -1px;
-  background: rgb(0,0,0);
-  background: rgba(0,0,0, 1);
+/*  background: rgb(0,0,0);
+  background: rgba(0,0,0, 0.8);*/
   padding: 10px;
 }
 
@@ -211,8 +211,10 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0.5;
-  filter: alpha(opacity=0.5);
+  opacity: 0.9;
+  filter: alpha(opacity=0.9);
+  background: rgb(0,0,0);
+  background: rgba(0,0,0, 1);
 
 }
 
